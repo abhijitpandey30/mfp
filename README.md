@@ -94,7 +94,7 @@ jobs:
 
 ---
 
-## ☁️ AWS Deployment
+## AWS Deployment
 
 Each micro app is deployed independently to **Amazon S3** with **CloudFront** used for CDN caching and routing. The shell app can fetch remote modules from these deployments using Module Federation's `remoteEntry.js`.
 
